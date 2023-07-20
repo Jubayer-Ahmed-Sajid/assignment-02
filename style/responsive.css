@@ -1,0 +1,79 @@
+@media screen and (max-width:576px){
+    nav,.card-section,.cards,.positioning{
+        flex-direction: column;
+        gap:30px;
+
+    }
+    nav{
+        box-shadow: none;
+        height: auto;
+    }
+    .icons{
+        padding: .2rem;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    nav,.banner{
+        padding:1.25rem;
+
+    }
+    .banner-photo{
+        width: 80%;
+        padding: auto ;
+    }
+    .banner-text{
+        width:100%;
+        height:25rem;
+    }
+    .card-section,.positioning,.catagories{
+        margin:10px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap:30px;
+        padding-inline-start: 0px;
+    }
+    .catagories{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 1.5rem;
+        
+    }
+    .games-catagories{
+        margin:20px;
+    }
+    .support,.social-links{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px;
+        row-gap: 1.5rem;
+        margin:0px;
+    }
+    .positioning-img{
+        width:80%;
+        height:80%;
+    }
+    .top-img{
+        left:1.25rem;
+        top:-7rem;
+        width:40%;
+        height: 40%;
+    }
+    footer{
+        padding:auto 2rem;
+        text-align: center;
+    }
+    .terms{
+        display: grid;
+        row-gap: 1rem;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .term ul{
+        padding-inline-start: 0rem;
+    }
+
+}

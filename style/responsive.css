@@ -39,11 +39,20 @@
     .catagories{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
         row-gap: 1.5rem;
         
     }
     .games-catagories{
-        margin:20px;
+        margin-left:1.25rem;
+        margin-right:1.25rem;
+
+    }
+    .games-catagories p{
+        font-size: 0.5rem;
+        margin:0;
+        padding: 0;
+
     }
     .support,.social-links{
         display: grid;

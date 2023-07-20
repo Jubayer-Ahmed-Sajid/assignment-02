@@ -87,10 +87,11 @@ nav ul a {
 /* Banner related style */
 .banner {
     display: flex;
+    gap: 1.25rem;
     align-items: center;
     justify-content: center;
     padding: auto 9.37rem;
-    gap: 1.25rem;
+    
 
 }
 
@@ -171,7 +172,7 @@ nav ul a {
 
 .card-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     margin: auto 9.37rem;
@@ -266,7 +267,8 @@ nav ul a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    /* gap: 1rem; */
+    padding: 1rem;
 
 }
 
